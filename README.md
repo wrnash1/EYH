@@ -1,2 +1,2 @@
 # EYH
-Earn your horizon conference program
+EXPANDING YOUR HORIZONS
