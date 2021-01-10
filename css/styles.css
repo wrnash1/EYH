@@ -1,0 +1,43 @@
+
+  body {
+    background-color: rgb(25, 80, 138);
+  }
+
+  .header {
+    height: 120px;
+    background-color: white;
+  }
+
+  #logo1 {
+    height: 10%;
+    margin: 1.5em;
+  }
+
+  #logo2 {
+    height: 10%;
+    margin: 1.5em;
+  }
+
+  .main-content {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+  }
+
+  #form-div {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto
+  }
+
+  .form-row {
+    margin: 1.5em;
+    font-weight: bold;
+  }
+
+  #text-hint {
+    color: grey;
+    font-size: small;
+  }
+
