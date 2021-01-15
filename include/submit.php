@@ -1,3 +1,5 @@
+</br>
+</br>
 <div class="container text-white">
   <div class="row">
     <div class="text-center">
@@ -7,4 +9,3 @@
     </div>
   </div>
 </div>
-<hr />

@@ -10,19 +10,10 @@
             <div class="form-outline">
               <div class="form-row">
                 <div class="col">
-                  <label for="first_name">First Name:</label>
+                  <label for="name">Full Name:</label>
                 </div>
                 <div class="col">
-                  <input class="form-control" type="text" name="first_name" placeholder="First Name" required />
-                </div>
-              </div>
-
-              <div class="form-row">
-                <div class="col">
-                  <label for="last_name">Last Name:</label>
-                </div>
-                <div class="col">
-                  <input class="form-control" type="text" name="last_name" placeholder="Last Name" required />
+                  <input class="form-control" type="text" name="name" placeholder="Full Name" required />
                 </div>
               </div>
 
@@ -31,8 +22,7 @@
                   <label for="address">Street Address:</label>
                 </div>
                 <div class="col">
-                  <input class="form-control" type="text" name="address" placeholder="Address Line 1" required />
-                  <input class="form-control" type="text" name="address" placeholder="Address Line 2" style="margin-top: 1.5em" />
+                  <input class="form-control" type="text" name="address" placeholder="Home Address" required />
                 </div>
               </div>
 
@@ -44,88 +34,90 @@
                   <input class="form-control" type="text" name="city" placeholder="City" required />
                 </div>
               </div>
-
-              <div class="form-row">
-                <div class="col">
-                  <label for="state">State:</label>
-                </div>
-                <div class="col">
-                  <select class="form-control" id="state" required>
-                    <option value="AL">Alabama</option>
-                    <option value="AK">Alaska</option>
-                    <option value="AZ">Arizona</option>
-                    <option value="AR">Arkansas</option>
-                    <option value="CA">California</option>
-                    <option value="CO">Colorado</option>
-                    <option value="CT">Connecticut</option>
-                    <option value="DE">Delaware</option>
-                    <option value="DC">District Of Columbia</option>
-                    <option value="FL">Florida</option>
-                    <option value="GA">Georgia</option>
-                    <option value="HI">Hawaii</option>
-                    <option value="ID">Idaho</option>
-                    <option value="IL">Illinois</option>
-                    <option value="IN">Indiana</option>
-                    <option value="IA">Iowa</option>
-                    <option value="KS">Kansas</option>
-                    <option value="KY">Kentucky</option>
-                    <option value="LA">Louisiana</option>
-                    <option value="ME">Maine</option>
-                    <option value="MD">Maryland</option>
-                    <option value="MA">Massachusetts</option>
-                    <option value="MI">Michigan</option>
-                    <option value="MN">Minnesota</option>
-                    <option value="MS">Mississippi</option>
-                    <option value="MO">Missouri</option>
-                    <option value="MT">Montana</option>
-                    <option value="NE">Nebraska</option>
-                    <option value="NV">Nevada</option>
-                    <option value="NH">New Hampshire</option>
-                    <option value="NJ">New Jersey</option>
-                    <option value="NM">New Mexico</option>
-                    <option value="NY">New York</option>
-                    <option value="NC">North Carolina</option>
-                    <option value="ND">North Dakota</option>
-                    <option value="OH">Ohio</option>
-                    <option value="OK">Oklahoma</option>
-                    <option value="OR">Oregon</option>
-                    <option value="PA">Pennsylvania</option>
-                    <option value="RI">Rhode Island</option>
-                    <option value="SC">South Carolina</option>
-                    <option value="SD">South Dakota</option>
-                    <option value="TN">Tennessee</option>
-                    <option value="TX" selected="selected">Texas</option>
-                    <option value="UT">Utah</option>
-                    <option value="VT">Vermont</option>
-                    <option value="VA">Virginia</option>
-                    <option value="WA">Washington</option>
-                    <option value="WV">West Virginia</option>
-                    <option value="WI">Wisconsin</option>
-                    <option value="WY">Wyoming</option>
-                  </select>
-                </div>
-              </div>
-
-              <div class="form-row">
-                <div class="col">
-                  <label for="zip">Zip:</label>
-                </div>
-                <div class="col">
-                  <input class="form-control" type="text" name="zip" placeholder="Zip Code" required />
+              
+              <div>
+                <div class="form-row">
+                  <div class="col">
+                    <label for="State">State:</label>
+                  </div>
+                  <input name="State" list="state" placeholder="State">
+                  <datalist id="state">
+                    <option value="Alabama">
+                    <option value="Alaska">
+                    <option value="Arizona">
+                    <option value="Arkansas">
+                    <option value="California">
+                    <option value="Colorado">
+                    <option value="Connecticut">
+                    <option value="Delaware">
+                    <option value="District Of Columbia">
+                    <option value="Florida">
+                    <option value="Georgia">
+                    <option value="Hawaii">
+                    <option value="Idaho">
+                    <option value="Illinois">
+                    <option value="Indiana">
+                    <option value="Iowa">
+                    <option value="Kansas">
+                    <option value="Kentucky">
+                    <option value="Louisiana">
+                    <option value="Maine">
+                    <option value="Maryland">
+                    <option value="Massachusetts">
+                    <option value="Michigan">
+                    <option value="Minnesota">
+                    <option value="Mississippi">
+                    <option value="Missouri">
+                    <option value="Montana">
+                    <option value="Nebraska">
+                    <option value="Nevada">
+                    <option value="New Hampshire">
+                    <option value="New Jersey">
+                    <option value="New Mexico">
+                    <option value="New York">
+                    <option value="North Carolina">
+                    <option value="North Dakota">
+                    <option value="Ohio">
+                    <option value="Oklahoma">
+                    <option value="Oregon">
+                    <option value="Pennsylvania">
+                    <option value="Rhode Island">
+                    <option value="South Carolina">
+                    <option value="South Dakota">
+                    <option value="Tennessee">
+                    <option value="Texas">
+                    <option value="Utah">
+                    <option value="Vermont">
+                    <option value="Virginia">
+                    <option value="Washington">
+                    <option value="West Virginia">
+                    <option value="Wisconsin">
+                    <option value="Wyoming">
                 </div>
               </div>
+            </div>
 
-              <div class="form-row">
-                <div class="col">
-                  <label for="email">Email Address:</label>
-                </div>
-                <div class="col">
-                  <input class="form-control" type="text" name="email" placeholder="email@sample.com" required />
-                  <p id="text-hint">
-                    We don't send spam or sell your contact information to anyone.
-                  </p>
-                </div>
+
+            <div class="form-row">
+              <div class="col">
+                <label for="zip">Zip:</label>
               </div>
+              <div class="col">
+                <input class="form-control" type="number" name="zip" placeholder="Zip Code" required />
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="col">
+                <label for="email">Email Address:</label>
+              </div>
+              <div class="col">
+                <input class="form-control" type="email" name="email" placeholder="email@sample.com" required />
+                <p id="text-hint">
+                  We don't send spam or sell your contact information to anyone.
+                </p>
+              </div>
+            </div>
           </form>
         </div>
       </div>

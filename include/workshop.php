@@ -6,77 +6,72 @@
 
       <h6>
         Please select two of the following workshop topics that you find the
-        most insteresting in the dropdown menus below.
-      </h6>
-      <h6>
+        most insteresting in the dropdown menus below.</br>
         You will be assigned four workshops in a variety of areas. For one
         of your workshops, we will attempt to honor your choices, but
         assignments are on a first-come, first-serve basis.**
       </h6>
     </div>
   </div>
+</div>
 
+<div class="container text-white">
   <div class="form-row">
     <div class="row">
-      <div class="col-4">
+      <div class="col-2">
         <label for="first_choice">First Choice:</label>
       </div>
       <div class="col-4">
-        <select class="form-control" name="first_choice">
-          <option name="No Preference">No Preference</option>
-          <option name="Architecture">Architecture</option>
-          <option name="Astronomy">Astronomy</option>
-          <option name="Aviation">Aviation</option>
-          <option name="Biology/Botany">Biology/Botany</option>
-          <option name="Business">Business</option>
-          <option name="Chemistry">Chemistry</option>
-          <option name="Communications">Communications</option>
-          <option name="Computer Science">Computer Science</option>
-          <option name="Criminal Justice/Law">Criminal Justice/Law</option>
-          <option name="Dentistry">Dentistry</option>
-          <option name="Earth Science">Earth Science</option>
-          <option name="Engineering">Engineering</option>
-          <option name="Firefighting/EMT">Firefighting/EMT</option>
-          <option name="Mathematics">Mathematics</option>
-          <option name="Medical Sciences">Medical Sciences</option>
-          <option name="Meteorology">Meteorology</option>
-          <option name="Physics">Physics</option>
-          <option name="Psychology/Sociology">Psychology/Sociology</option>
-          <option name="Veterinary Medicine">Veterinary Medicine</option>
-        </select>
-        <p id="text-hint">Cannot be the same as your second choice.</p>
+        <input name="first_choice" list="first_choice" placeholder="First choice">
+        <datalist id="first_choice">
+          <option value="No Preference">
+          <option value="Architecture">
+          <option value="Astronomy">
+          <option value="Aviation">
+          <option value="Biology/Botany">
+          <option value="Business">
+          <option value="Chemistry">
+          <option value="Communications">
+          <option value="Computer Science">
+          <option value="Criminal Justice/Law">
+          <option value="Dentistry">
+          <option value="Earth Science">
+          <option value="Engineering">
+          <option value="Firefighting/EMT">
+          <option value="Mathematics">
+          <option value="Medical Sciences">
+          <option value="Meteorology">
+          <option value="Physics">
+          <option value="Psychology/Sociology">
+          <option value="Veterinary Medicine">
       </div>
-    </div>
-  </div>
-  <div class="form-row">
-    <div class="row">
-      <div class="col-4">
-        <label for="second-choice">Second Choice:</label>
+
+      <div class="col-2">
+        <label for="second_choice">Second Choice:</label>
       </div>
       <div class="col-4">
-        <select class="form-control" name="second-choice">
-          <option name="No Preference">No Preference</option>
-          <option name="Architecture">Architecture</option>
-          <option name="Astronomy">Astronomy</option>
-          <option name="Aviation">Aviation</option>
-          <option name="Biology/Botany">Biology/Botany</option>
-          <option name="Business">Business</option>
-          <option name="Chemistry">Chemistry</option>
-          <option name="Communications">Communications</option>
-          <option name="Computer Science">Computer Science</option>
-          <option name="Criminal Justice/Law">Criminal Justice/Law</option>
-          <option name="Dentistry">Dentistry</option>
-          <option name="Earth Science">Earth Science</option>
-          <option name="Engineering">Engineering</option>
-          <option name="Firefighting/EMT">Firefighting/EMT</option>
-          <option name="Mathematics">Mathematics</option>
-          <option name="Medical Sciences">Medical Sciences</option>
-          <option name="Meteorology">Meteorology</option>
-          <option name="Physics">Physics</option>
-          <option name="Psychology/Sociology">Psychology/Sociology</option>
-          <option name="Veterinary Medicine">Veterinary Medicine</option>
-        </select>
-        <p id="text-hint">Cannot be the same as your first choice.</p>
+        <input name="second_choice" list="second_choice" placeholder="Second choice">
+        <datalist id="second_choice">
+          <option value="No Preference">
+          <option value="Architecture">
+          <option value="Astronomy">
+          <option value="Aviation">
+          <option value="Biology/Botany">
+          <option value="Business">
+          <option value="Chemistry">
+          <option value="Communications">
+          <option value="Computer Science">
+          <option value="Criminal Justice/Law">
+          <option value="Dentistry">
+          <option value="Earth Science">
+          <option value="Engineering">
+          <option value="Firefighting/EMT">
+          <option value="Mathematics">
+          <option value="Medical Sciences">
+          <option value="Meteorology">
+          <option value="Physics">
+          <option value="Psychology/Sociology">
+          <option value="Veterinary Medicine">
       </div>
     </div>
   </div>
