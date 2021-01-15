@@ -20,25 +20,26 @@
 </head>
 
 <body>
-  <?php include "include/header.php"; ?>
-  <?php include "include/limit.php"; ?>
-  <?php include "include/contact.php"; ?>
-  <br>
-  <?php include "include/grade.php"; ?>
-  <?php include "include/shirt.php"; ?>
-  <?php include "include/attend.php"; ?>
-  <br>
-  <?php include "include/girl_scout.php"; ?>
+  <form action="include/action_page.php" method="post">
+    <?php include "include/header.php"; ?>
+    <?php include "include/limit.php"; ?>
+    <?php include "include/contact.php"; ?>
+    <br>
+    <?php include "include/grade.php"; ?>
+    <?php include "include/shirt.php"; ?>
+    <?php include "include/attend.php"; ?>
+    <br>
+    <?php include "include/girl_scout.php"; ?>
 
-  <?php include "include/school.php"; ?>
-  <?php include "include/teacher.php"; ?>
+    <?php include "include/school.php"; ?>
+    <?php include "include/teacher.php"; ?>
 
-  <?php include "include/workshop.php"; ?>
-  <?php include "include/submit.php"; ?>
+    <?php include "include/workshop.php"; ?>
+    <?php include "include/submit.php"; ?>
 
-  <?php include "include/footer.php"; ?>
+    <?php include "include/footer.php"; ?>
 
-  <!-- FORM CLASS END -->
+    <!-- FORM CLASS END -->
   </form>
   <!-- Bootstrap Bundle with Popper -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>

@@ -19,11 +19,11 @@
   <div class="form-row">
     <div class="row">
       <div class="col-2">
-        <label for="first_choice">First Choice:</label>
+        <label for="topic1">First Choice:</label>
       </div>
       <div class="col-4">
-        <input name="first_choice" list="first_choice" placeholder="First choice">
-        <datalist id="first_choice">
+        <input name="topic1" list="topic1" placeholder="First choice">
+        <datalist id="topic1">
           <option value="No Preference">
           <option value="Architecture">
           <option value="Astronomy">
@@ -50,8 +50,8 @@
         <label for="second_choice">Second Choice:</label>
       </div>
       <div class="col-4">
-        <input name="second_choice" list="second_choice" placeholder="Second choice">
-        <datalist id="second_choice">
+        <input name="topic2" list="topic2" placeholder="Second Choice">
+        <datalist id="topic2">
           <option value="No Preference">
           <option value="Architecture">
           <option value="Astronomy">

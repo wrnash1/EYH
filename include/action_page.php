@@ -9,18 +9,24 @@ if($link === false){
 
 
 // User inputs with security
-$first_name = mysqli_real_escape_string($link, $_REQUEST['first_name']);
-$last_name = mysqli_real_escape_string($link, $_REQUEST['last_name']);
+$name = mysqli_real_escape_string($link, $_REQUEST['name']);
+$address = mysqli_real_escape_string($link, $_REQUEST['address']);
+$city = mysqli_real_escape_string($link, $_REQUEST['city']);
+$state = mysqli_real_escape_string($link, $_REQUEST['state']);
+$zip = mysqli_real_escape_string($link, $_REQUEST['zip']);
 $email = mysqli_real_escape_string($link, $_REQUEST['email']);
-$inputAddress = mysqli_real_escape_string($link, $_REQUEST['inputAddress']);
-$inputAddress2 = mysqli_real_escape_string($link, $_REQUEST['inputAddress2']);
-$inputCity = mysqli_real_escape_string($link, $_REQUEST['inputCity']);
-$inputState = mysqli_real_escape_string($link, $_REQUEST['inputState']);
-$inputZip = mysqli_real_escape_string($link, $_REQUEST['inputZip']);
+$grade = mysqli_real_escape_string($link, $_REQUEST['grade']);
+$size = mysqli_real_escape_string($link, $_REQUEST['size']);
+$attend = mysqli_real_escape_string($link, $_REQUEST['attend']);
+$troop = mysqli_real_escape_string($link, $_REQUEST['troop']);
+$school = mysqli_real_escape_string($link, $_REQUEST['school']);
+$teacher = mysqli_real_escape_string($link, $_REQUEST['teacher']);
+$topic1 = mysqli_real_escape_string($link, $_REQUEST['topic1']);
+$topic2 = mysqli_real_escape_string($link, $_REQUEST['topic2']);
 
 
 //Attempt inset execution
-$sql = "INSERT INTO student (fist_name, last_name, email, inputAddress, inputAddress2, inputCity, inputState, inputZip) VALUES ('$first_name', '$last_name', '$email', '$inputAddress', '$inputAddress2', '$inputCity', '$inputState', '$inputZip')";
+$sql = "INSERT INTO student (name, address, city, state, zip, email, grade, size, attend, troop, school, teacher, topic1, topic2 ) VALUES ('$name', '$address', '$city', '$state', '$zip', '$email', '$grade', '$size', '$attend', '$troop', '$school', '$teacher', '$topic1', '$topic2')";
 if(mysqli_query($link, $sql)){
     echo "Records added successfully.";
 } else{ 

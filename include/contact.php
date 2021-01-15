@@ -40,7 +40,7 @@
                   <div class="col">
                     <label for="State">State:</label>
                   </div>
-                  <input name="State" list="state" placeholder="State">
+                  <input name="state" list="state" placeholder="State">
                   <datalist id="state">
                     <option value="Alabama">
                     <option value="Alaska">
