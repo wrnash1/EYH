@@ -21,7 +21,7 @@
       <div class="row">
         <footer class="footer mt-auto py-3 bg-light">
           <div class="text-hint text-center">
-            <a href="http://www.txwes.edu" target="_new"><img src="logo-twu.png" height="39" alt="Texas Wesleyan"></a>
+            <a href="http://www.txwes.edu" target="_new"><img src="../static/logo-twu.png" height="39" alt="Texas Wesleyan"></a>
             © <a href="http://cs.txwes.edu" target="_new">
               <script>
                 document.write((new Date()).getFullYear())

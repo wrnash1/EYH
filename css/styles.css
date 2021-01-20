@@ -41,3 +41,6 @@
     font-size: small;
   }
 
+  button:hover {
+    background-color: green;
+  }
