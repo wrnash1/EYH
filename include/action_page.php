@@ -27,7 +27,9 @@ $topic2 = mysqli_real_escape_string($link, $_REQUEST['topic2']);
 
 
 //Attempt inset execution
-$sql = "INSERT INTO student (name, address, city, state, zip, email, grade, size, attend, troop, school, teacher, topic1, topic2 ) VALUES ('$name', '$address', '$city', '$state', '$zip', '$email', '$grade', '$size', '$attend', '$troop', '$school', '$teacher', '$topic1', '$topic2')";
+$sql = "INSERT INTO student (name, address, city, state, zip, email, grade, size, attend, troop, school, teacher, topic1, topic2)
+VALUES ('$name', '$address', '$city', '$state', '$zip', '$email', '$grade', '$size', '$attend', '$troop', '$school', '$teacher', '$topic1', '$topic2')";
+
 if(mysqli_query($link, $sql)){
     echo "Records added successfully.";
 } else{ 
@@ -38,4 +40,3 @@ if(mysqli_query($link, $sql)){
 
 //Close database connection
 mysqli_close($link);
-?>

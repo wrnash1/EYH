@@ -3,9 +3,7 @@
 <div class="container text-white">
   <div class="row">
     <div class="text-center">
-      <button class="btn btn-info" type="submit" value="Submit">
-        Submit your Registration
-      </button>
+      <input type="submit" value="Submit" name="submit">
     </div>
   </div>
 </div>
