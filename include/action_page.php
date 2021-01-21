@@ -1,5 +1,6 @@
 <?php 
 /* attempt Mariadb server connection. */
+/* This will need to be change when moving to production server */
 $link = mysqli_connect("localhost", "eyh", "horizon", "eyh");
 
 // Check connection
