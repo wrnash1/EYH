@@ -1,3 +1,4 @@
+<!-- School Div Start -->
 <div class="container text-white">
   <div class="row">
     <div class="col">
@@ -68,3 +69,4 @@
     </div>
   </div>
 </div>
+<!-- school Div End -->

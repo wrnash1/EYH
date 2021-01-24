@@ -1,3 +1,4 @@
+<!-- workshop Div Start -->
 <div class="container text-white">
   <div class="row">
     <div class="col-12">
@@ -6,7 +7,7 @@
 
       <h6>
         Please select two of the following workshop topics that you find the
-        most insteresting in the dropdown menus below.</br>
+        most insteresting in the dropdown menus below.<br>
         You will be assigned four workshops in a variety of areas. For one
         of your workshops, we will attempt to honor your choices, but
         assignments are on a first-come, first-serve basis.**
@@ -78,3 +79,4 @@
     </div>
   </div>
 </div>
+<!-- workshop Div End -->
