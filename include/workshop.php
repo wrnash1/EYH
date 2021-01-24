@@ -24,26 +24,27 @@
       <div class="col-4">
         <input name="topic1" list="topic1" placeholder="First choice">
         <datalist id="topic1">
-          <option value="No Preference">
-          <option value="Architecture">
-          <option value="Astronomy">
-          <option value="Aviation">
-          <option value="Biology/Botany">
-          <option value="Business">
-          <option value="Chemistry">
-          <option value="Communications">
-          <option value="Computer Science">
-          <option value="Criminal Justice/Law">
-          <option value="Dentistry">
-          <option value="Earth Science">
-          <option value="Engineering">
-          <option value="Firefighting/EMT">
-          <option value="Mathematics">
-          <option value="Medical Sciences">
-          <option value="Meteorology">
-          <option value="Physics">
-          <option value="Psychology/Sociology">
-          <option value="Veterinary Medicine">
+          <option value="No Preference"></option>
+          <option value="Architecture"></option>
+          <option value="Astronomy"></option>
+          <option value="Aviation"></option>
+          <option value="Biology/Botany"></option>
+          <option value="Business"></option>
+          <option value="Chemistry"></option>
+          <option value="Communications"></option>
+          <option value="Computer Science"></option>
+          <option value="Criminal Justice/Law"></option>
+          <option value="Dentistry"></option>
+          <option value="Earth Science"></option>
+          <option value="Engineering"></option>
+          <option value="Firefighting/EMT"></option>
+          <option value="Mathematics"></option>
+          <option value="Medical Sciences"></option>
+          <option value="Meteorology"></option>
+          <option value="Physics"></option>
+          <option value="Psychology/Sociology"></option>
+          <option value="Veterinary Medicine"></option>
+        </datalist>
       </div>
 
       <div class="col-2">
@@ -52,26 +53,27 @@
       <div class="col-4">
         <input name="topic2" list="topic2" placeholder="Second Choice">
         <datalist id="topic2">
-          <option value="No Preference">
-          <option value="Architecture">
-          <option value="Astronomy">
-          <option value="Aviation">
-          <option value="Biology/Botany">
-          <option value="Business">
-          <option value="Chemistry">
-          <option value="Communications">
-          <option value="Computer Science">
-          <option value="Criminal Justice/Law">
-          <option value="Dentistry">
-          <option value="Earth Science">
-          <option value="Engineering">
-          <option value="Firefighting/EMT">
-          <option value="Mathematics">
-          <option value="Medical Sciences">
-          <option value="Meteorology">
-          <option value="Physics">
-          <option value="Psychology/Sociology">
-          <option value="Veterinary Medicine">
+          <option value="No Preference"></option>
+          <option value="Architecture"></option>
+          <option value="Astronomy"></option>
+          <option value="Aviation"></option>
+          <option value="Biology/Botany"></option>
+          <option value="Business"></option>
+          <option value="Chemistry"></option>
+          <option value="Communications"></option>
+          <option value="Computer Science"></option>
+          <option value="Criminal Justice/Law"></option>
+          <option value="Dentistry"></option>
+          <option value="Earth Science"></option>
+          <option value="Engineering"></option>
+          <option value="Firefighting/EMT"></option>
+          <option value="Mathematics"></option>
+          <option value="Medical Sciences"></option>
+          <option value="Meteorology"></option>
+          <option value="Physics"></option>
+          <option value="Psychology/Sociology"></option>
+          <option value="Veterinary Medicine"></option>
+        </datalist>
       </div>
     </div>
   </div>
