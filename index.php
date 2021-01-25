@@ -20,22 +20,7 @@
 </head>
 
 <body>
-  <form action="include/action_page.php" method="post">
-    <?php include "include/header.php"; ?>
-    <?php include "include/limit.php"; ?>
-    <?php include "include/contact.php"; ?>
-    <br>
-    <?php include "include/grade.php"; ?>
-    <?php include "include/shirt.php"; ?>
-    <?php include "include/attend.php"; ?>
-    <br>
-    <?php include "include/girl_scout.php"; ?>
-
-    <?php include "include/school.php"; ?>
-    <?php include "include/teacher.php"; ?>
-
-    <?php include "include/workshop.php"; ?>
-    <?php include "include/submit.php"; ?>
+  
 
     <?php include "include/footer.php"; ?>
 
