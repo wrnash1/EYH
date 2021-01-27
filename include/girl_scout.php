@@ -7,9 +7,9 @@
       </div>
       <div class="col-4">
         <input class="form-control" type="text" name="troop" />
-        <p id="text-hint">(If applicable)</p>
+        <input placeholder="(If applicable)">
       </div>
     </div>
   </div>
-</div>  
+</div>
 <!-- Girl Scout Troop End -->

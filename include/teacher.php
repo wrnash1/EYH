@@ -7,7 +7,7 @@
       </div>
       <div class="col-4">
         <input class="form-control" type="text" name="teacher" required />
-        <p id="text-hint">(Name)</p>
+        <input placeholder="(Teach Name)">
       </div>
     </div>
   </div>
