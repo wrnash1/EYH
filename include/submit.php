@@ -1,11 +1,9 @@
 <!-- submit Div Start -->
 <br>
 <br>
-<div class="container text-white">
-  <div class="row">
-    <div class="text-center">
-      <input type="submit" value="Submit">
-    </div>
+<div class="col-12">
+<div class="container text-white text-center">
+    <button class="btn btn-light" type="submit">Submit form</button>
   </div>
 </div>
 <!-- submit Div end -->

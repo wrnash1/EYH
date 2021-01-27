@@ -1,3 +1,13 @@
+<div class="row">
+    <div class="col">
+      <p>Mail check to:</p>
+      <p><strong>Expanding Your Horizons</strong></p>
+      <p><strong>Texas Wesleyan University</strong></p>
+      <p><strong>1201 Wesleyan St.</strong></p>
+      <p><strong>Fort Worth, TX 76105</strong></p>
+    </div>
+  </div>
+
 <?php
 require_once "Database.php";
 
